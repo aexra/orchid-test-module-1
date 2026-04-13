@@ -1,0 +1,9 @@
+name: orchid-test-pg-redis
+
+tags:
+  - test
+
+provider:
+  - type: docker-compose
+    config:
+      file: docker-compose.yml
