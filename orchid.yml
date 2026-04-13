@@ -7,3 +7,6 @@ provider:
   - type: docker-compose
     config:
       file: docker-compose.yml
+
+clean:
+  - ./data/redis
