@@ -9,4 +9,4 @@ provider:
       file: docker-compose.yml
 
 clean:
-  - ./data/redis
+  - ./data
